@@ -1,0 +1,18 @@
+Ushbu loyihani ishlatish uchun sizning kompyuteringizga PyQt5 va mysql o'rnatilgan bo'lishi kerak
+
+Agar sizda ular mavjud bo'las terminalga ushbu buyrug'larni ketma ketlikda kiriting:
+
+python -m venv .venv
+.\.venvy\Scripts\activate
+pip freeze > requirements.txt
+
+ushbu buyrug'dan so'ng sizga txt fayl ochiladi va uning ichiga quyidagicha yozishingiz kerak:
+
+PyQt5==5.15.11
+mysql-connector-python==9.0.0
+
+so'ng terminalga quyidagi buyrug'ni kiritishingiz kerak:
+
+pip install -r .\requirements.txt
+
+ushbu buyrug'lardan so'ng sizda kerakli kutubxonalar o'rnatiladi
